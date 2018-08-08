@@ -1,0 +1,18 @@
+#gameBoard {
+  width: 800px;
+  height: 800px;
+  margin: auto;
+}
+
+#gameBoard .square-board {
+  float: left;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  text-align: center;
+  font-weight: bold;
+  line-height: 40px;
+  width: 40px;
+  height: 40px;
+  font-size: 2em;
+  background: rgba(0,0,0,0.1);
+}
