@@ -1,6 +1,5 @@
 let arr_O = [];
 let arr_X = [];
-let arrCheckedSquare = [];
 let size = 20;
 let $gameBoard = $('#gameBoard');
 let xIsNext = true;
@@ -81,7 +80,6 @@ function newGame() {
 }
 
 function checkWinGame(arr) {
-  console.log(arr);
   let check = false;
   for(let i = 0; i < Math.pow(size, 2); i++){
     let item = arr[i];
